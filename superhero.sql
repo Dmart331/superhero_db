@@ -10,6 +10,6 @@ CREATE TABLE `Sidekick` (
 	`Name`	TEXT NOT NULL,
 	`Gender`	TEXT NOT NULL,
 	`Profession`	TEXT NOT NULL,
-	`SuperheroId` INTEGER NOT NULL
+	`SuperheroId` INTEGER NOT NULL,
 	FOREIGN KEY(`SuperheroId`) REFERENCES `Superhero`(`SuperheroId`)
 );
